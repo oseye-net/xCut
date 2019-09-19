@@ -1,0 +1,38 @@
+{
+    "appDesc": {
+        "message": "홈페이지 캡처 도구 osEye.net 제작",
+        "description": ""
+    },
+    "appTitle":{
+        "message":"xCut-스크린 샷",
+        "description": ""
+    },
+    "alterTitle": {
+        "message": "xCut에 오신 것을 환영합니다!",
+        "description": ""
+    },
+    "alterContent": {
+        "message": "<p> xCut은 모든 웹 페이지를 제공 할 수 있지만 브라우저 보안 정책으로 보호되는 페이지를 제공 할 수는 없지만 빈 페이지, 확장 페이지 및 시작 페이지 ( 시작 페이지). </ p> <p> <a href='http://www.oseye.net' target='_blank'> oseye.net </a>과 같은 다른 페이지를 사용해 볼 수 있습니다. </ p >",
+        "description": ""
+    },
+    "editorDesc": {
+        "message": "스크린 샷 편집/저장",
+        "description": ""
+    },
+    "editorSave":{
+        "message":"<i class=\"fa fa-download\"></i> 저장",
+        "description":""
+    },
+    "editorCopyright":{
+        "message":"화면 캡처 도구 작성자",
+        "description":""
+    },
+    "editorUndo":{
+        "message":"끄르다",
+        "description":""
+    },
+    "editorRedo":{
+        "message":"다시 하다",
+        "description":""
+    }
+}

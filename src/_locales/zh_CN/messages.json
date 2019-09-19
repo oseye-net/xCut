@@ -1,0 +1,38 @@
+{
+    "appDesc": {
+        "message": "网页截屏工具，由osEye.net制作",
+        "description": ""
+    },
+    "appTitle":{
+        "message":"xCut - 截屏",
+        "description": ""
+    },
+    "alterTitle": {
+        "message": "欢迎使用xCut!",
+        "description": ""
+    },
+    "alterContent": {
+        "message": "<p>xCut能服务于任何网页，但不能服务于被浏览器安全策略保护的页面，好在被保护的页面只有寥寥几个: 空白页(blank), 扩展页(extension)和起始页(startup pages).</p><p>你可以试试其他页面如<a href='http://www.oseye.net' target='_blank'>oseye.net</a>.</p>",
+        "description": ""
+    },
+    "editorDesc": {
+        "message": "编辑/保存截屏",
+        "description": ""
+    },
+    "editorSave":{
+        "message":"<i class=\"fa fa-download\"></i> 保存",
+        "description":""
+    },
+    "editorCopyright":{
+        "message":"截屏工具制作方",
+        "description":""
+    },
+    "editorUndo":{
+        "message":"撤销",
+        "description":""
+    },
+    "editorRedo":{
+        "message":"重做",
+        "description":""
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "appDesc": {
+        "message": "Herramienta de captura de páginas web, producida por osEye.net",
+        "description": ""
+    },
+    "appTitle":{
+        "message":"xCut - captura de pantalla",
+        "description": ""
+    },
+    "alterTitle": {
+        "message": "Bienvenido a xCut!",
+        "description": ""
+    },
+    "alterContent": {
+        "message": "<p> xCut puede servir cualquier página web, pero no puede servir páginas protegidas por las políticas de seguridad del navegador. Afortunadamente, solo hay unas pocas páginas protegidas: páginas en blanco, páginas de extensión y páginas de inicio ( Páginas de inicio). </p> <p> Puede probar otras páginas como <a href='http://www.oseye.net' target='_blank'> oseye.net </a>. </p>",
+        "description": ""
+    },
+    "editorDesc": {
+        "message": "Editar / Guardar captura de pantalla",
+        "description": ""
+    },
+    "editorSave":{
+        "message":"<i class=\"fa fa-download\"></i> Guardar",
+        "description":""
+    },
+    "editorCopyright":{
+        "message":"Autor de la herramienta de captura de pantalla",
+        "description":""
+    },
+    "editorUndo":{
+        "message":"Deshacer",
+        "description":""
+    },
+    "editorRedo":{
+        "message":"Rehacer",
+        "description":""
+    }
+}

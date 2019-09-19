@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>xCut </title>
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/pure-min.css">
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .button-xsmall {
+            font-size: 70%;
+        }
+
+        .button-small {
+            font-size: 85%;
+        }
+
+        .button-large {
+            font-size: 110%;
+            font-weight: bold;
+        }
+
+        .button-xlarge {
+            font-size: 125%;
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65);
+            color: white;
+            /* this is a green */
+        }
+    </style>
+</head>
+
+<body style="background-color: #fafafa">
+    <div class="pure-g" style="width: 60%;margin: 30px auto 20px;border-bottom: 2px solid #ddd">
+        <div class="pure-u-1" style="font-weight: bold;font-size:28px;color: #444;">
+            <img src="assets/icons/32.png"> <span id="editor-desc"></span>       </div>
+    </div>
+    <div class="pure-g" style="width: 60%;margin: 0 auto;">
+        <div class="pure-u-1-2">
+            <div class="pure-button-group" role="group" style="text-align: left">
+                <button class="pure-button button-small" id="editor-undo"><i class="fa fa-reply"></i></button>
+                <button class="pure-button button-small" id="editor-redo"><i class="fa fa-share"></i></button>
+                <button title="black" color="#000000" style="background-color: #000000"
+                    class="colorBtn pure-button button-small">&nbsp;</button>
+                <button title="blue" color="#4285f4" style="background-color: #4285f4"
+                    class="colorBtn pure-button button-small">&nbsp;</button>
+                <button title="red" color="#FF0000" style="background-color: #ff0000"
+                    class="colorBtn pure-button button-small">&nbsp;</button>
+
+            </div>
+        </div>
+        <div class="pure-u-1-2" style="text-align: right">
+            <button class="button-success pure-button button-large" id="editor-save"></button>
+        </div>
+    </div>
+    <div class="pure-g" style="width: 60%;margin: 0 auto;">
+        <div class="pure-u-1">
+            <div style="padding:10px 0;text-align: center;background-color:#f2f2f2">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="pure-g" style="width: 60%;margin: 20px auto 0;border-top: 2px solid #ddd">
+        <div class="pure-u-1" style="font-size: 15px;padding-top:10px;color:#444">
+            <i class="fa fa-play"></i> <span id="editor-copyright"></span> <i class="fa fa-copyright"></i> <a
+                href="http://www.oseye.net" target="_blank">osEye.net</a>.
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="editor.js"></script>
